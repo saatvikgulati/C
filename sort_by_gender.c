@@ -12,7 +12,7 @@ int main(int argc,char *argv[]){
 		fp_w=fopen(argv[1],"w");
 		fp_r=fopen(argv[1],"r");	
 			//Check File Existance
-			if(fp_r !=NULL  & fp_w!=NULL){
+			if(fp_r !=NULL  && fp_w!=NULL){
 				//Variables
 				char name[30];
 				long rollno;
